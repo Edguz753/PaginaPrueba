@@ -1,0 +1,38 @@
+/* segmento estilos de barra de navegación navbar */
+.navbar {
+    display: flex; /* acomoda al ancho de la página */
+    justify-content: center;/* justifica, alínea el contenido */
+    align-items: center;
+    position: fixed;
+    top: 0;/* acomoda la barra en la parte superior de la página */
+    right: 0; /* acomoda la barra en la parte derecha de la página */
+    width: 30%; /* ancho de la barra de navegación */
+    margin: 0 auto; /* centra la barra de navegación */
+    background: rgn(50, 50, 50, 0.5); /* color de fondo */
+    font-family: Verdana; /* tipo de letra */
+    /*padding: 10px 10px;*/
+    border-bottom-left-radius: 20px; /* bordes redondeados */
+
+}
+
+.nav-links {
+    display: flex; /* acomoda los enlaces en fila */
+    list-style: none; /* quita los puntos de la lista */
+}
+.nav-links li {
+    margin: 0 20px; /* margen entre los enlaces */
+    
+}
+
+.nav-links a {
+    color: white; /* color de los enlaces */
+    font-size: 1em; /* tamaño de la fuente */
+    font-weight: bold; /* negrita */
+    text-decoration: none; /* quita el subrayado de los enlaces */
+    padding: 10px 15px; /* espacio alrededor del texto */
+    border-radius: 5px; /* bordes redondeados */
+    transition: background-color 0.3s ease; /* transición suave al cambiar el color de fondo */
+}
+.nav-links a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* color de fondo al pasar el mouse */
+}

@@ -1,0 +1,75 @@
+/* Segmento de estilos de barra de navegación navbar */
+.navbar {
+    display: flex; /* Acomoda al ancho de la página dinámicamente */
+    justify-content: center; /* Justifica o alinea el contenido */
+    position: fixed; /* Fija la barra en la parte superior */
+    top: 0; /* Pega a la parte superior la barra */
+    right: 0; /* Posiciona la barra a la derecha */
+    width: 35%; /* El porcentaje de la página que se va a utilizar para la barra de navegación */
+    margin: 0 auto; /* Sin márgenes */
+    /*background: rgba(50, 50, 50, 0.5); /* Color del fondo de la barra con transparencia del 50% */
+    font-family: Verdana; /* Tipo de letra */
+    /*padding: 10px 10px; /* Márgenes (opcional) */
+    border-bottom-left-radius: 20px; /* Esquina inferior izquierda redondeada */
+}
+
+.nav-links {
+    display: flex; /* Ajuste automático de links */
+    list-style: none; /* Quita el estilo de lista (puntos) */
+}
+
+.nav-links li {
+    margin: 0 5px; /* Márgenes 0 verticales, 10 horizontales */
+    color: white; /* Color blanco */
+}
+
+.nav-links a {
+    color: whitesmoke; /* Color de la letra */
+    text-decoration: none; /* Quita el subrayado típico de los enlaces */
+    font-size: 1em; /* Tamaño de la letra igual al tamaño base del navegador */
+    padding: 10px 10px; /* Espaciado interno */
+    transition: background 0.5s; /* Transición de fondo */
+}
+
+.nav-links a:hover { /* Estilo de transición al pasar el mouse */
+    background: #555; /* Color de celda cuando el mouse está encima */
+    border-radius: 5px; /* Borde curvo */
+}
+
+/* Termina sección de barra de navegación */
+
+/* Segmento de estilos de la sección principal */
+
+body {
+    background: url(../Multimedia/fondo.png) no-repeat center center fixed; /* Imagen de fondo */
+    background-size: cover; /* Ajusta la imagen al tamaño de la pantalla */
+    height: 100vh; /* Altura de la ventana del navegador */
+    margin: 0; /* Sin márgenes */
+    font-family: Verdana; /* Tipo de letra */
+}
+
+* {
+    margin: 0; /* Sin márgenes */
+    padding: 0; /* Sin relleno */
+    box-sizing: border-box; /* Ajusta el tamaño de los elementos */
+    box-shadow: gray; /* Sombra de los elementos */
+    font-family: Verdana; /* Tipo de letra */
+    /*font-size: 1em; /* Tamaño de la letra igual al tamaño base del navegador */
+}
+
+body {
+    display: flex; /* Ajuste automático de links */
+    flex-wrap: wrap; /* Permite que los elementos se ajusten a la siguiente línea */
+    justify-content: center; /* Justifica o alinea el contenido */
+    align-items: center; /* Alinea verticalmente el contenido */
+    height: 100vh; /* Altura de la ventana del navegador */
+    text-align: center; /* Alinea el texto al centro */
+}
+contenedpython {
+    display: flex; /* Ajuste automático de links */
+    flex-wrap: wrap; /* Permite que los elementos se ajusten a la siguiente línea */
+    justify-content: center; /* Justifica o alinea el contenido */
+    align-items: center; /* Alinea verticalmente el contenido */
+    height: 100vh; /* Altura de la ventana del navegador */
+    text-align: center; /* Alinea el texto al centro */
+}
